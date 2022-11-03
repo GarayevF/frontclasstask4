@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.absolute-1{
+    padding: 13px 20px;
+    background-color: rgb(230, 34, 77);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 120px;
+    box-shadow: 0px 0px 2px grey;
+    z-index: 2;
+}
+
+.absolute-1 i{
+    margin-right: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.absolute-1 p{
+    font-size: 20px;
+    color: #fff;
+}
+
+.absolute-2{
+    padding: 13px 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 60px;
+    box-shadow: 0px 0px 2px grey;
+    z-index: 2;
+}
+
+.absolute-2 i{
+    margin-right: 20px;
+    font-size: 20px;
+    color: rgb(230, 34, 77);
+}
+
+.absolute-2 p{
+    font-size: 15px;
+    color: #1b1b1b;
+}
+
+#Header{
+    padding: 2rem 7rem;
+    background-color: #fff;
+}
+
+#Content{
+    padding: 2rem 0;
+    z-index: -1;
+    background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background.jpg);
+    padding: 19rem 0;
+}
+
+#Products{
+    padding: 2rem 7rem;
+    z-index: -1;
+}
+
+.header-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: #1b1b1b;
+    margin-left: 4rem;
+}
+
+.logo{
+    width: 20%;
+}
+
+.logo img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+}
+
+.icons i{
+    font-size: 20px;
+}
+
+.content-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.content-img{
+    width: 100%;
+}
+
+.content-img img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.content-text{
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+.content-text h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.content-text h3{
+    font-size: 20px;
+    color: gray;
+}
+
+.all-nav-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.all-nav-div a{
+    color:#1b1b1b;
+    font-size: 20px;
+    
+}
+
+.all-boxes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pro-nav a{
+    margin-right: 20px;
+}
+
+.box{
+    width: 22%;
+    margin-bottom: 30px;
+}
+
+.box img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.price{
+    text-align: center;
+    width: 100%;
+}
+
+.price h2{
+    font-size: 20px;
+    margin: 10px;
+    
+}
+
+.price h4{
+    font-size: 15px;
+    color: grey;
+}
